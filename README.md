@@ -1,26 +1,13 @@
-Memory Utility
+💾  Memory Utility 
 
-Memory Utility is a lightweight Windows tool for monitoring and reclaiming system memory, inspired by classic memory cleaners but built with a modern, clean UI and transparent behavior.
+Memory Utility is a lightweight Windows application designed to monitor and reclaim system memory safely and efficiently.
 
-No telemetry. No background services. No auto-updates.
-Just a focused utility that does exactly what it says.
-
-🔽 Download
-
-👉 Get the latest release:
-MemoryUtilitySetup.exe
-
-⚠️ The application is currently unsigned.
-If Windows SmartScreen appears:
-
-Click More info
-
-Click Run anyway
-
-There are no bundled installers, no ads, and no background downloads.
+Built with WPF (.NET) and designed for Windows 10 & 11, it features a modern dark UI, smart privilege handling, tray integration, and a clean one-click workflow.
 
 ✨ Features
 
+🧹 Safe memory cleaning (no admin required)
+🔐 Advanced cleaning options (Administrator only, prompted when needed)
 📊 Live memory monitoring
 
 Physical memory
@@ -29,31 +16,13 @@ Pagefile usage
 
 System working set
 
-🧹 Safe memory cleaning
+🟢 Clear status feedback with visual indicators
+🔄 Restart as Administrator when required
+🔔 System tray support
 
-One-click cleaning
-
-Does not require Administrator rights
-
-🔐 Advanced cleaning (optional)
-
-Standby list
-
-Modified page list
-
-File cache
-
-Registry cache
-
-Automatically prompts for Administrator only when needed
-
-📌 System tray integration
-
-Live RAM usage percentage in tray icon
+Live RAM usage percentage
 
 Quick actions from tray menu
-
-Optional single-click clean
 
 🚀 Startup options
 
@@ -61,51 +30,43 @@ Start minimized to tray
 
 Optional start with Windows
 
-🎨 Modern dark UI
+📦 Single-file installer
+🔍 Built-in update checker (GitHub-based)
 
-Custom window chrome
+🖥️ Screenshots
 
-Clear status feedback
+(Screenshots coming soon)
 
-Non-intrusive notifications
+🚀 Installation
+Option 1: Installer (recommended)
 
-🛠 Usage
-Safe Cleaning
+Download MemoryUtilitySetup.exe from Releases
 
-Click Clean Memory
+Run the installer
 
-Or use the tray icon
+Follow the on-screen instructions
 
-Safe cleaning works without elevation and is always enabled.
+Option 2: Portable
 
-Advanced Cleaning
+Download the portable build
 
-When advanced options are selected:
+Run MemoryUtility.exe
 
-Memory Utility prompts to restart the clean as Administrator
-
-The main app stays running in the tray
-
-The elevated clean runs once and exits automatically
-
-This avoids permanently running the app as admin.
+⚠️ Note:
+Advanced memory cleaning actions require Administrator privileges.
+The app will prompt only when needed — it does not run permanently as admin.
 
 🔄 Updates
 
-Memory Utility does not auto-update.
+Memory Utility checks for updates using a simple version file hosted on GitHub.
 
-To check for updates:
+Update source: version.json
 
-Help → About → Check for updates
+When a newer version is available, the app can open the latest release page automatically
 
+No silent downloads
 
-When a new version is available:
-
-You’ll see the version details
-
-The official GitHub release page opens in your browser
-
-No silent downloads or automatic installs
+No automatic installs
 
 🔐 Security & Transparency
 
@@ -115,27 +76,23 @@ No analytics
 
 No background services
 
-No network activity except update checks
+No hidden downloads
 
-No persistent registry hooks beyond user settings
+No persistent registry changes beyond user settings
 
-Advanced memory operations use documented Windows APIs and require explicit Administrator consent.
+Advanced operations use documented Windows APIs and require explicit Administrator approval.
 
-💻 System Requirements
+🛠️ Built With
 
-Windows 10 or newer
+.NET (WPF)
 
-x64 system
+C#
 
-.NET runtime included (self-contained build)
+Inno Setup (installer)
 
-Administrator rights only for advanced cleaning features
+Windows 10 / 11 compatible
 
 📄 License
 
-© 2026 Jordan Potter
+© 2026 xfenixbomberx
 All rights reserved.
-
-⭐ Support the project
-
-If you find Memory Utility useful, consider starring the repository — it helps others discover it.
