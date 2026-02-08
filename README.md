@@ -46,12 +46,6 @@ Run the installer
 
 Follow the on-screen instructions
 
-Option 2: Portable
-
-Download the portable build
-
-Run MemoryUtility.exe
-
 ⚠️ Note:
 Advanced memory cleaning actions require Administrator privileges.
 The app will prompt only when needed — it does not run permanently as admin.
