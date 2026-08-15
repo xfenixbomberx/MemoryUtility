@@ -91,4 +91,3 @@ Windows 10 / 11 compatible
 All rights reserved.
 
 ---
-<a href="https://www.producthunt.com/products/memory-utility?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-memory-utility" target="_blank" rel="noopener noreferrer"><img alt="Memory Utility - Designed to reclaim system memory safely and efficiently. | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1186168&amp;theme=dark&amp;t=1782978988774"></a>
